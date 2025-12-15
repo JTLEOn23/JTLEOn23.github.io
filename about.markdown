@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Acerca de Juan Jesús Torres Aspajo
 permalink: /about/
 ---
