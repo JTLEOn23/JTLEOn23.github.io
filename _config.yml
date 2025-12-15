@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Juan Jesús Torres León | Full-Stack Developer
+email: juanjesu050207@gmail.com                     # <--- ¡Tu correo!
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Portafolio y blog profesional de Juan Jesús Torres León, desarrollador Full-Stack especializado en ... (Pon aquí una descripción breve de ti).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://jtleon23.github.io"
+# twitter_username: tu_usuario_de_twitter            # <--- COMENTADO: No tienes Twitter
+github_username: JTLEOn23                            # <--- Tu usuario de GitHub
 
 # Build settings
 theme: minima
