@@ -1,36 +1,28 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Este archivo contiene la configuración de tu sitio.
 
-title: Juan Jesús Torres León | Full-Stack Developer
-email: juanjesu050207@gmail.com                     # <--- ¡Tu correo!
-description: >- # this means to ignore newlines until "baseurl:"
-  Portafolio y blog profesional de Juan Jesús Torres León, desarrollador Full-Stack especializado en ... (Pon aquí una descripción breve de ti).
-baseurl: "" # the subpath of your site, e.g. /blog
+title: Juan Jesús Torres Aspajo | Desarrollador Full-Stack
+email: juanjesu050207@gmail.com
+description: >- # Descripción profesional para Google Search
+  Portafolio y blog profesional de Juan Jesús Torres Aspajo, estudiante de SENATI especializado en
+  Desarrollo Web Full-Stack (PHP, Laravel, NODE.js, Java) y arquitectura MVC.
+baseurl: ""
 url: "https://jtleon23.github.io"
-# twitter_username: tu_usuario_de_twitter            # <--- COMENTADO: No tienes Twitter
-github_username: JTLEOn23                            # <--- Tu usuario de GitHub
+github_username: JTLEOn23
 
-# Build settings
-theme: minima
+# -------------------------------------------------------------
+# Configuracion del Tema: Minimal Mistakes (Portafolio Profesional)
+# -------------------------------------------------------------
+# USAMOS 'remote_theme' para temas que no son nativos en GitHub Pages.
+# Esto reemplaza: theme: portfolYOU
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins necesarios para el tema Minimal Mistakes
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
