@@ -33,13 +33,33 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 # exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#  - .sass-cache/
+#  - .jekyll-cache/
+#  - gemfiles/
+#  - Gemfile
+#  - Gemfile.lock
+#  - node_modules/
+#  - vendor/bundle/
+#  - vendor/cache/
+#  - vendor/gems/
+#  - vendor/ruby/
+
+# -------------------------------------------------------------
+# CONFIGURACIÓN NUEVA: AUTOR Y SIDEBAR
+# -------------------------------------------------------------
+author:
+  name: "Juan Jesús Torres Aspajo"
+  # **IMPORTANTE:** Sube tu foto a /assets/images/
+  avatar: "/assets/images/juanjesus-profile.jpg"
+  bio: "Estudiante de Informática y Desarrollador Full-Stack (PHP/Laravel & NODE.js). Me enfoco en compartir soluciones eficientes y mi aprendizaje diario." 
+  location: "Lima, Perú"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JTLEOn23"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/TU_USUARIO_DE_LINKEDIN" # <--- ¡PEGA TU ENLACE!
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:juanjesu050207@gmail.com"
