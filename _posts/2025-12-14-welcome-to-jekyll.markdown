@@ -21,7 +21,7 @@ El reto era crear un mecanismo eficiente que notificara al inventario de SOS Foo
 
 El siguiente código se encuentra en el modelo `Ingredient` y nos permite consultar rápidamente los ítems críticos desde cualquier controlador.
 
-{% highlight php %}
+```php
 // app/Models/Ingredient.php
 
 use Illuminate\Database\Eloquent\Builder;
@@ -41,8 +41,3 @@ class Ingredient extends Model
         return $query->where('current_stock', '<=', $critical_threshold);
     }
 }
-{% endhighlight %}
-
-## 3. Valor Agregado como Desarrollador Júnior
-
-Haber diseñado e implementado esta función como parte de mi experiencia inicial en SOS Food subraya mi compromiso con las metodologías modernas de desarrollo web (como el patrón MVC) y mi habilidad para entregar valor desde el comienzo de mi carrera profesional.
